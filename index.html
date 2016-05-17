@@ -16,6 +16,12 @@
       line-height: 1.8;
       color: #818181;
   }
+  a {
+    color: #303030;
+  }
+  a:hover {
+    color: #808080
+  }
   h2 {
       font-size: 24px;
       text-transform: uppercase;
@@ -69,9 +75,18 @@
     -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
     filter: grayscale(0%);
 }
+  .artikelbillede {
+    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
+    align-content: center;
+    width: 100%;
+  }
   .artikel {
     margin-top: 25px;
     padding: 10px;
+  }
+  .col-sm-8{
+    text-align: left;
   }
   .carousel-control.right, .carousel-control.left {
       background-image: none;
@@ -146,7 +161,7 @@
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
 <div class="jumbotron text-center">
-  <h1>Tema</h1>
+  <h1 style="margin-bottom: 5px; margin-top: 0px;">Tema</h1>
   <br>
   <p>Vi vil fortælle, at 'bla bla'...</p>
   <br>
@@ -160,49 +175,140 @@
   <div class="col-sm-4"><a href="#5"><img src="img-5.png" class="img-responsive"/></a></div>
   <div class="col-sm-4"><a href="#6"><img src="img-6.png" class="img-responsive"/></a></div>
 </div>
-
+<br>
+<br>
 <!-- Container (ARTIKEL 1) -->
 <div id="1" class="artikel row">
-  <div class="col-sm-4">.col-sm-4</div>
-  <div class="col-sm-8">.col-sm-8</div>
+  <div class="col-sm-4">
+    <br>
+    <br>
+    <a href="#myPage" title="To Top">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+    <p>Til toppen</p>
+  </div>
+  <div class="col-sm-8">
+    <h1>Rubrik</h1>
+      <h2 style="margin-bottom: 5px; margin-top: 0px;">Underrubrik</h2>
+      <p style="margin: 0px; font-size: 12px;">25. maj 2016</p>
+      <img src="img-1.png" class="img-responsive artikelbillede"/>
+      <p style="font-size: 12px; margin-bottom: 5px; margin-top: 0px;">Billedtekst</p>
+      <p style="font-style: italic; font-size: 14px; margin-bottom: 5px; margin-top: 0px;">Byline</P>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </div>
 </div>
 <!-- Container (ARTIKEL 2) -->
 <div id="2" class="artikel row">
-  <div class="col-sm-8">.col-sm-8</div>
-  <div class="col-sm-4">.col-sm-4</div>
+  <div class="col-sm-8">
+    <h1>Rubrik</h1>
+    <h2 style="margin-bottom: 5px; margin-top: 0px;">Underrubrik</h2>
+    <p style="margin: 0px; font-size: 12px;">25. maj 2016</p>
+    <img src="img-2.png" class="img-responsive artikelbillede"/>
+    <p style="font-size: 12px; margin-bottom: 5px; margin-top: 0px;">Billedtekst</p>
+    <p style="font-style: italic; font-size: 14px; margin-bottom: 5px; margin-top: 0px;">Byline</P>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div>
+  <div class="col-sm-4">
+    <br>
+    <br>
+    <a href="#myPage" title="To Top">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+    <p>Til toppen</p>
+  </div>
 </div>
 <!-- Container (ARTIKEL 3) -->
 <div id="3" class="artikel row">
-  <div class="col-sm-4">.col-sm-4</div>
-  <div class="col-sm-8">.col-sm-8</div>
+  <div class="col-sm-4">
+    <br>
+    <br>
+    <a href="#myPage" title="To Top">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+    <p>Til toppen</p>
+  </div>
+  <div class="col-sm-8">
+    <h1>Rubrik</h1>
+    <h2 style="margin-bottom: 5px; margin-top: 0px;">Underrubrik</h2>
+    <p style="margin: 0px; font-size: 12px;">25. maj 2016</p>
+    <img src="img-3.png" class="img-responsive artikelbillede"/>
+    <p style="font-size: 12px; margin-bottom: 5px; margin-top: 0px;">Billedtekst</p>
+    <p style="font-style: italic; font-size: 14px; margin-bottom: 5px; margin-top: 0px;">Byline</P>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div>
 </div>
 <!-- Container (ARTIKEL 4) -->
 <div id="4" class="artikel row">
-  <div class="col-sm-8">.col-sm-8</div>
-  <div class="col-sm-4">.col-sm-4</div>
+  <div class="col-sm-8">
+    <h1>Rubrik</h1>
+    <h2 style="margin-bottom: 5px; margin-top: 0px;">Underrubrik</h2>
+    <p style="margin: 0px; font-size: 12px;">25. maj 2016</p>
+    <img src="img-4.png" class="img-responsive artikelbillede"/>
+    <p style="font-size: 12px; margin-bottom: 5px; margin-top: 0px;">Billedtekst</p>
+    <p style="font-style: italic; font-size: 14px; margin-bottom: 5px; margin-top: 0px;">Byline</P>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div>
+  <div class="col-sm-4">
+    <br>
+    <br>
+    <a href="#myPage" title="To Top">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+    <p>Til toppen</p>
+  </div>
 </div>
 <!-- Container (ARTIKEL 5) -->
 <div id="5" class="artikel row">
-  <div class="col-sm-4">.col-sm-4</div>
-  <div class="col-sm-8">.col-sm-8</div>
+  <div class="col-sm-4">
+    <br>
+    <br>
+    <a href="#myPage" title="To Top">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+    <p>Til toppen</p>
+  </div>
+  <div class="col-sm-8">
+    <h1>Rubrik</h1>
+    <h2 style="margin-bottom: 5px; margin-top: 0px;">Underrubrik</h2>
+    <p style="margin: 0px; font-size: 12px;">25. maj 2016</p>
+    <img src="img-5.png" class="img-responsive artikelbillede"/>
+    <p style="font-size: 12px; margin-bottom: 5px; margin-top: 0px;">Billedtekst</p>
+    <p style="font-style: italic; font-size: 14px; margin-bottom: 5px; margin-top: 0px;">Byline</P>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div>
 </div>
 <!-- Container (ARTIKEL 6) -->
 <div id="6" class="artikel row">
-  <div class="col-sm-8">.col-sm-8</div>
-  <div class="col-sm-4">.col-sm-4</div>
+  <div class="col-sm-8">
+    <h1>Rubrik</h1>
+    <h2 style="margin-bottom: 5px; margin-top: 0px;">Underrubrik</h2>
+    <p style="margin: 0px; font-size: 12px;">25. maj 2016</p>
+    <img src="img-6.png" class="img-responsive artikelbillede"/>
+    <p style="font-size: 12px; margin-bottom: 5px; margin-top: 0px;">Billedtekst</p>
+    <p style="font-style: italic; font-size: 14px; margin-bottom: 5px; margin-top: 0px;">Byline</P>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div>
+  <div class="col-sm-4">
+    <br>
+    <br>
+    <a href="#myPage" title="To Top">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+    <p>Til toppen</p>
+  </div>
 </div>
 
 <footer class="container-fluid text-center">
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
-  <p>Designet af Anders Worup</p>
+  <p>Til toppen</p>
 </footer>
 
 <script>
 $(document).ready(function(){
   // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a[href='#myPage'], a[href='#1'], a[href='#2'], a[href='#3'], a[href='#4'], a[href='#5'], a[href='#6']").on('click', function(event) {
+  $(".navbar a, a[href='#myPage'], a[href='#1'], a[href='#2'], a[href='#3'], a[href='#4'], a[href='#5'], a[href='#6']").on('click', function(event) {
 
     // Prevent default anchor click behavior
     event.preventDefault();
